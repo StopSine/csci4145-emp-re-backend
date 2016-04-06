@@ -1,0 +1,22 @@
+{
+  "name": "real_estate",
+  "plural": "real_estates",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "MlsId": {
+      "type": "number",
+      "required": true
+    },
+    "appraisal_value": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
